@@ -1,0 +1,11 @@
+.top-fixed-panel {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0 0 8px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px -2px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  color: black;
+  height: 70%;
+}
