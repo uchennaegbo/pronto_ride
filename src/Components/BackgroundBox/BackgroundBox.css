@@ -1,0 +1,19 @@
+.backgroundBox {
+  background-image: url('./automobile.jpg');
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  opacity: 1;
+}
+.dim {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+}
