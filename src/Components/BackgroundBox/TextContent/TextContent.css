@@ -1,0 +1,28 @@
+.text-container {
+  position: absolute;
+  top: 35%;
+  right: auto;
+  bottom: auto;
+  left: 50%;
+  z-index: 1;
+  width: 95%;
+  max-width: 70rem;
+  color: #fff;
+  text-align: center;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.title {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  max-width: 62.5rem;
+  font-size: 3.5rem;
+}
+
+.tagline {
+  font-size: 1.25rem !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+  color: #eee !important;
+}
