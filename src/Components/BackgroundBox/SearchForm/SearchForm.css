@@ -1,0 +1,50 @@
+.home-search-form {
+  display:flex;
+  text-align: left;
+  margin: 3.75rem auto 0.625rem;
+  margin-top: 3.75rem;
+  margin-right: auto;
+  margin-bottom: 0.625rem;
+  margin-left: auto;
+  max-width: 40rem;
+}
+
+.btn {
+  position: relative;
+  margin-left: 9px;
+  border-radius: .1875rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.1;
+  width: auto;
+  font-size: 1rem;
+  min-width: 8.125rem;
+  max-height: 2.8125rem;
+  height: 2.8125rem;
+  border: 1px solid #746e65;
+  background-color: #746e65;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  color: #fff;
+  padding: .8125rem 1.25rem .875rem;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #249882;
+  opacity:0.95;
+  transition: all ease 500ms;
+}
+
+.btn-balanced {
+  border: 1px solid #1cb799;
+  background-color: #1cb799;
+  transition: background-color .3s ease;
+  color: #fff;
+}
