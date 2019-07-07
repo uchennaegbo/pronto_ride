@@ -26,7 +26,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <div class="nav-item">
+      <div className="nav-item">
         <strong>
           <a className="btn " href="/car-managers">
             Car managers
