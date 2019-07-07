@@ -1,0 +1,100 @@
+.Form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f2ef;
+  font-family: Nunito, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+.form {
+  margin: auto;
+  padding: 20px;
+}
+
+.Form-wrapper {
+  margin: auto;
+  padding: 10px;
+  height: auto;
+  width: 25%;
+  color: rgb(22, 21, 21);
+  font-size: 15px;
+  border-radius: 15px;
+  transition: all ease 800ms;
+  -webkit-box-shadow: 0 2px 3px hsla(0, 0%, 4%, 0.1),
+    0 0 0 1px hsla(0, 0%, 4%, 0.1);
+  box-shadow: 0 2px 3px hsla(0, 0%, 4%, 0.1), 0 0 0 1px hsla(0, 0%, 4%, 0.1);
+  background: #fff;
+}
+
+.Form-wrapper:hover {
+  box-shadow: 5px 5px 5px -6px rgba(0, 0, 0, 0.56);
+  background-color: #fdfcfc;
+}
+
+.formMessage {
+  float: right;
+  margin: 0;
+  font-size: 0.85em;
+  cursor: pointer;
+}
+
+label {
+  text-align: left;
+  width: 100px;
+}
+
+[type='email'],
+[type='password'],
+textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 15px;
+  background-color: #f1f1f1;
+  color: #141f1f;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 50px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 0.98em;
+}
+
+input[type='email']:focus,
+input[type='password']:focus {
+  border: 2px solid #900;
+  background: #e0f8875e;
+}
+
+button[type='submit'] {
+  width: 100%;
+  font-size: 0.98em;
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 16px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+  outline: none;
+}
+
+.Form-login {
+  margin-bottom: 1.5rem;
+}
+
+.error {
+  margin-top: -1rem;
+  color: red;
+  font-size: 1em;
+  font-family: cursive;
+  float: left;
+}
+
+.inputError {
+  border-color: red;
+}
