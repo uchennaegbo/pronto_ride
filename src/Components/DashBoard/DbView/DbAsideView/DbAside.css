@@ -1,0 +1,12 @@
+.aside-wrapper {
+  height: 100%;
+  width: 22.5%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  box-shadow: 8px 8px 8px -6px rgba(0, 0, 0, 0.56);
+  background-color: hsla(205, 88%, 6%, 0.847);
+  color: #fff;
+  font-size: 20px;
+  padding: 5px;
+}
