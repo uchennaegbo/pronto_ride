@@ -1,0 +1,40 @@
+.userDetailsContainer {
+  display: flex;
+  box-shadow: 0 2px 3px hsla(0, 0%, 4%, 0.1), 0 0 0 1px hsla(0, 0%, 4%, 0.1);
+  padding: 0.55em;
+}
+
+.user-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.user-details {
+  margin: 1rem;
+  padding: 0;
+  text-align: left;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 3px 5px hsla(0, 0%, 4%, 0.1),
+    0 0 0 1px hsla(0, 0%, 4%, 0.1);
+  transition: all ease 500ms;
+}
+
+.avatar:hover {
+  transform: scale(1.02);
+  opacity: 0.7;
+}
+
+.info {
+  font-size: 60%;
+  margin-top: -10rem;
+  margin-bottom: -2em;
+}
