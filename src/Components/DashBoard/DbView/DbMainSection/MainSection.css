@@ -1,0 +1,11 @@
+.mainSection {
+  margin: 10px auto;
+  max-width: 74%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  box-shadow: 8px 8px 8px -6px rgba(0, 0, 0, 0.56);
+  background-color: #07324e;
+  color: #4b4b4b;
+}
