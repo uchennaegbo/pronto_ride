@@ -1,0 +1,23 @@
+.dbnav-container {
+  display: flex;
+  flex-direction: row;
+  padding: 14px;
+  font-size: 18px;
+  line-height: 3.7rem;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+}
+
+.user {
+  font-size: 1.2rem;
+  margin-top: 1.1em;
+  margin-right: 0.35rem;
+}
+
+.question {
+  margin-right: 0.25rem;
+  margin-top: 1.2em;
+}
+
+.bell {
+  margin-top: 1.2em;
+}
