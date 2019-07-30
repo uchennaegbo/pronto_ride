@@ -1,7 +1,7 @@
 import React from 'react';
 import DbNav from '../DbNav/DbNav';
 import AsideView from './DbAsideView/DbAside';
-// import MainSection from './DbMainSection/MainSection';
+import MainSection from './DbMainSection/MainSection';
 import './DbView.css';
 
 const DbView = () => {
@@ -10,7 +10,7 @@ const DbView = () => {
       <DbNav />
       <div className="main-display">
         <AsideView />
-        {/* <MainSection /> */}
+        <MainSection />
       </div>
     </>
   );
