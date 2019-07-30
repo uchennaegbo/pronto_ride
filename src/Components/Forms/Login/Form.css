@@ -9,6 +9,7 @@
 .form {
   margin: auto;
   padding: 20px;
+  text-align: left;
 }
 
 .Form-wrapper {
@@ -43,8 +44,15 @@ label {
   width: 100px;
 }
 
+.form-check {
+  display: flex;
+}
+
 [type='email'],
+[type='text'],
+[type='radio'],
 [type='password'],
+[type='checkbox'],
 textarea {
   width: 100%;
   padding: 12px 16px;
@@ -60,7 +68,8 @@ textarea {
 }
 
 input[type='email']:focus,
-input[type='password']:focus {
+input[type='password']:focus,
+[type='text']:focus {
   border: 2px solid #900;
   background: #e0f8875e;
 }
