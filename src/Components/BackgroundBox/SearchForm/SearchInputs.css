@@ -75,7 +75,7 @@ label {
 
 .input-icon-group .icon {
   position: absolute;
-  top: 20%;
+  top: 10%;
   font-size: 1.225rem;
 }
 
@@ -84,7 +84,7 @@ label {
 }
 
 .home-search-form .input-icon-group .icon {
-  top: 50%;
+  top: 40%;
   left: 12px;
   margin-top: -0.5625rem;
   text-transform: none;
