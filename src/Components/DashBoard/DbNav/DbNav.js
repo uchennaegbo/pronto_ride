@@ -43,7 +43,7 @@ const DbNav = () => {
 
       <div className="dbnav-item">
         <a className="btn btn-balanced" href="/upgrade">
-          Upgrade to Premium
+          Go Pro
         </a>
       </div>
     </div>
