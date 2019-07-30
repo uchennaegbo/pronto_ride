@@ -2,7 +2,8 @@ import React from 'react';
 import useForm from './useFormSignUp';
 import validate from './validateSignUp';
 import FormInput from '../Login/FormInput';
-
+import { Link } from 'react-router-dom';
+import GoBack from '../../GoBack/GoBack';
 
 const SignUpForm = props => {
   const { handleChange, handleSubmit, values, errors } = useForm(
@@ -16,6 +17,7 @@ const SignUpForm = props => {
 
   return (
     <div className="Form-section">
+      <GoBack to="/home" text=" Back To Home" />
       <div className="Form-wrapper">
         <h2 className="Form-login">{props.FormTitle}</h2>
         <form onSubmit={handleSubmit} noValidate className="form">
@@ -68,8 +70,6 @@ const SignUpForm = props => {
               id="gender-female"
               value="female"
             />
-            {/* </div>
-          <div class="form-check"> */}
             <label class="form-check-label" for="gender-male">
               Male
             </label>
@@ -90,18 +90,18 @@ const SignUpForm = props => {
             value={values.password}
             handleCallback={handleChange}
             autoComplete=""
+            display="flex"
+            inputWidth="20px"
+            labelWidth="fit-content"
             errorMessage={
               errors.password && <p className="error">{errors.password}</p>
             }
           />
-          {/* <div class="form-check">
-            <label class="form-check-label" for="newsletter">
-              Do you agree to our terms of service.
-            </label>
-            <input class="form-check-input" type="checkbox" value="" />
-          </div> */}
           <button type="submit">Submit</button>
-          <span className="formMessage">{props.formMessage}</span>
+          <span className="formMessage">
+            {props.formMessage}{' '}
+            <Link to={props.formLink}>{props.formAnchor}</Link>
+          </span>
         </form>
       </div>
     </div>
