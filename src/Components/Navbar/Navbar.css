@@ -1,6 +1,6 @@
 .nav-container {
   display: flex;
-  padding: 20px;
+  padding: 14px;
   scroll-behavior: smooth;
   font-size: 18px;
   background: transparent;
@@ -10,7 +10,6 @@
 .nav-link,
 a {
   text-decoration: none;
-  margin-left: 20px;
   margin-right: 20px;
 }
 
