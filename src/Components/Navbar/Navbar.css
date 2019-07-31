@@ -15,7 +15,7 @@ a {
 
 .nav-icon-container {
   display: flex;
-  padding: 5px;
+  padding: 3px;
   margin-right: 40px;
   margin-left: 40px;
   margin-top: 10px;
@@ -41,7 +41,7 @@ a {
 }
 
 .logo-icon {
-  width: 70%;
+  width: 50%;
   margin-right: 2px;
   margin-left: 3.5rem;
 }

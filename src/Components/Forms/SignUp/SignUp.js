@@ -5,7 +5,9 @@ const SignUp = () => {
   return (
     <Form
       FormTitle="Sign Up"
-      formMessage="Already have an account? Login Here."
+      formMessage="Already have an account?"
+      formLink="/login"
+      formAnchor="Login here."
     />
   );
 };

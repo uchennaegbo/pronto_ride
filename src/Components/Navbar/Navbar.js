@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import Pronto from '../../assets/Pronto.svg';
 
@@ -11,26 +12,28 @@ const Navbar = () => {
       </div>
       <div className="logo-icon-container">
         <img src={Pronto} alt="pronto-logo" className="logo-icon" />
-        Pronto
+        <Link to="/home">
+          <strong>Pronto</strong>
+        </Link>
       </div>
 
       <div className="nav-item">
-        <a className="nav-link" href="/sign-in">
+        <Link className="nav-link" to="/sign-up">
           <strong>Sign Up</strong>
-        </a>
+        </Link>
       </div>
 
       <div className="nav-item">
-        <a className="nav-link" href="/login">
-          <strong>Sign in</strong>
-        </a>
+        <Link className="nav-link" to="/login">
+          <strong>Log in</strong>
+        </Link>
       </div>
 
       <div className="nav-item">
         <strong>
-          <a className="btn " href="/car-managers">
+          <Link className="btn " to="/car-managers">
             Car managers
-          </a>
+          </Link>
         </strong>
       </div>
     </div>
